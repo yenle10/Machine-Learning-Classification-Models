@@ -25,13 +25,13 @@ Stacking Ensemble:
 Define base_learners: GNB, LDA, QDA
 Define meta_learner: LogReg
 
-III. Model Comparison and Reporting:
+III. Model Comparison and Reporting
 
 Reporting:
 Print the Final Test Results Table, sorted by CV Recall (highest priority metric).
 
 Visualization and select best model:
-Generate two separate, large box plots:
-F2 Score: Train vs. Test scores from CV folds.
-Recall: Train vs. Test scores from CV folds.
+Generate two separate box plots:
+F2 Score and Recall (Train vs. Test scores from CV folds)
+
  
