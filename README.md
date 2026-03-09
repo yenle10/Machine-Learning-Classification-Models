@@ -8,7 +8,7 @@ Imbalance Dataset Check: Visualize and quantify the class distribution (for this
 
 Feature Relationships and Correlation Matrix: Visualize the correlation matrix between all features to check for multicollinearity.
 
-II. Training and Hyperparameter Tuning: Split the data and optimize our models using cross-validation.
+II. Training and Hyperparameter Tuning: Optimize models using cross-validation.
 
 Data Splitting:
 Split the data into train and test.
@@ -25,12 +25,12 @@ Stacking Ensemble:
 Define base_learners: GNB, LDA, QDA
 Define meta_learner: LogReg
 
-III. Model Comparison and Reporting: Visualize results and select the best model.
+III. Model Comparison and Reporting:
 
 Reporting:
 Print the Final Test Results Table, sorted by CV Recall (highest priority metric).
 
-Visualization:
+Visualization and select best model:
 Generate two separate, large box plots:
 F2 Score: Train vs. Test scores from CV folds.
 Recall: Train vs. Test scores from CV folds.
