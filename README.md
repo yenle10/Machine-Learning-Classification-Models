@@ -4,7 +4,7 @@ I. Exploratory Data Analysis (EDA)
 
 Statistical Figures: Display data types and descriptive statistics (mean, min, max, std...)
 
-Imbalance Dataset Check: Visualize and quantify the class distribution (for this dataset: 34%/66% -> imbalanced ).
+Imbalance Dataset Check: Visualize and quantify the class distribution (for this dataset: 34%/66% -> imbalanced) -> later we use Recall (and F2) for Hyperparameter tuning and Training, since FN are more costly than FP (in this dataset).
 
 Feature Relationships and Correlation Matrix: Visualize the correlation matrix between all features to check for multicollinearity.
 
