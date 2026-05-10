@@ -11,23 +11,31 @@ Feature Relationships and Correlation Matrix: Visualize the correlation matrix b
 II. Training and Hyperparameter Tuning: Optimize models using cross-validation.
 
 Data Splitting:
+
 Split the data into train and test.
+
 Define 6-fold StratifiedKFold for cross-validation (cv).
 
 Baseline Models (No Tuning):
+
 Train and evaluate: GNB, LDA, QDA.
 
 Hyperparameter Tuning (GridSearchCV):
+
 Use GridSearchCV for optimization.
+
 Tune: LogReg, DecTree, Bagging, XGBoost, RF, AdaBoost, GraBoost.
 
 Stacking Ensemble:
+
 Define base_learners: GNB, LDA, QDA
+
 Define meta_learner: LogReg
 
 III. Model Comparison and Reporting
 
 Reporting:
+
 Print the Final Test Results Table, sorted by CV Recall (highest priority metric).
 
 Visualization and select best model:
